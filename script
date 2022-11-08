@@ -63,8 +63,8 @@ CREATE TABLE customer (
         
 CREATE TABLE staff (
         employee_id INTEGER PRIMARY KEY NOT NULL,
-        Names VARCHAR(30),
-        Full_name VARCHAR(30),
+        names VARCHAR(30),
+        full_name VARCHAR(30),
         date_of_birth DATE,
         experience VARCHAR(5),
         post VARCHAR(10),
